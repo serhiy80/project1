@@ -7,7 +7,7 @@ services:
     build: .
     command: python app.py
     ports:
-     - "3050:5000"
+     - "80:5000"
   redis:
     image: "redis:alpine"
     volumes:
